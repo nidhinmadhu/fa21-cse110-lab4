@@ -1,0 +1,2 @@
+1. The bug in this program is that the inputs are read in as strings, and so when we try to add the two numbers together, because they are both type strings, the strings are just combined, rather than computing the arithmetic.
+2. An easy fix is just caling parseInt() function on the inputs before you do the arithmetic, then when you do the addition, you are adding two integers instead of strings.
